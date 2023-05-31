@@ -15,5 +15,8 @@
   <PropertyGroup>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentFTP" Version="46.0.2"/>
+  </ItemGroup>
   <Import Project="NewHMIProject19.references"/>
 </Project>
